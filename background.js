@@ -1,4 +1,3 @@
-
 //constants for wormhole
 var circlesCount = 100;
 var offsetX = 70;
@@ -144,7 +143,6 @@ function startWormHole() {
 function stopWormHole() {
     if (wormHoleIntervalID > -1)
         clearInterval(wormHoleIntervalID);
-
     clearCanvas();
     document.getElementById("wormHole").onclick = stopWormHole;
     document.getElementById("wormHole").innerHTML = "Wormhole Mode";
