@@ -17,11 +17,15 @@
         </header>
         <div id="gameZone">
          <canvas id="backgroundCanvas">
-            Your browser doesn't support HTML5. Please install Internet Explorer 9 :
+            Your browser doesn't support HTML5. Please install Internet Explorer 9:
             <br />
             <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie9_bow_Bing&WT.srch=1&mtag=SearBing">
             http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie9_bow_Bing&WT.srch=1&mtag=SearBing</a>
         </canvas>
+    	 <svg id="svgRoot">
+                <circle cx="100" cy="100" r="10" id="ball" />
+                <rect id="pad" height="15px" width="150px" x="200" y="200" rx="10" ry="20"/>
+        </svg>
             <div id="stats">
             </div>
             <div id="message">Victory!</div>
@@ -32,5 +36,6 @@
     </div>
     <script type="text/javascript" src="mouse.js"></script>
     <script type="text/javascript" src="background.js"></script>
+	<script type="text/javascript" src="game.js"></script>
 </body>
 </html>
